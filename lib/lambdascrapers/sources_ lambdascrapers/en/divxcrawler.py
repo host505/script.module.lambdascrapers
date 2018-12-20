@@ -17,8 +17,8 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['divxcrawler.tv']
-        self.base_link = 'http://www.divxcrawler.tv'
+        self.domains = ['divxcrawler.club']
+        self.base_link = 'https://www.divxcrawler.club'
         self.search_link = '/latest.htm'
         self.search_link2 = '/streaming.htm'
         self.search_link3 = '/movies.htm'

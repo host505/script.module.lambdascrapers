@@ -3,6 +3,7 @@
     cartoonhd scraper for Exodus forks.
     Nov 9 2018 - Checked
     Oct 10 2018 - Cleaned and Checked
+    Dec 19 2018 - Checked
 
     Updated and refactored by someone.
     Originally created by others.
@@ -19,8 +20,8 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['cartoonhd.care']
-        self.base_link = 'https://cartoonhd.care'
+        self.domains = ['cartoonhd.watch','cartoonhd.care','cartoonhd.de']
+        self.base_link = 'https://cartoonhd.de'
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:

@@ -1,11 +1,13 @@
 # -*- coding: UTF-8 -*-
-'''
-    bnwmovies scraper for Exodus forks.
-    Nov 9 2018 - Checked
+#######################################################################
+ # ----------------------------------------------------------------------------
+ # "THE BEER-WARE LICENSE" (Revision 42):
+ # Muad'Dib wrote this file.  As long as you retain this notice you
+ # can do whatever you want with this stuff. If we meet some day, and you think
+ # this stuff is worth it, you can buy me a beer in return. - Muad'Dib
+ # ----------------------------------------------------------------------------
+#######################################################################
 
-    Updated and refactored by someone.
-    Originally created by others.
-'''
 import re,traceback,urllib,urlparse,base64
 import requests
 
