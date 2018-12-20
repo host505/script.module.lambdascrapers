@@ -15,7 +15,7 @@ from resources.lib.modules import proxy
 
 class source:
     def __init__(self):
-        self.priority = 0
+        self.priority = 1
         self.language = ['en']
         self.domains = ['xwatchseries.to','onwatchseries.to','itswatchseries.to']
         self.base_link = 'https://www1.swatchseries.to'
