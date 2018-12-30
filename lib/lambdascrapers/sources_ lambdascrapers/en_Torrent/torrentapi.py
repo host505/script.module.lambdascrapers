@@ -13,11 +13,11 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domain = 'https://Torrentapi.top'
+        self.domain = 'https://torrentapi.org'
         self.api_key = PremiumizeMeResolver.get_setting('password')
-        self.tvsearch = 'https://torrentapi.org//pubapi_v2.php?app_id=exodus&mode=search&search_string=%s&category=tv&ranked=0&token=%s'
-        self.msearch = 'https://torrentapi.org//pubapi_v2.php?app_id=exodus&mode=search&search_string=%s&category=movies&ranked=0&token=%s'
-        self.tokenta = 'https://torrentapi.org//pubapi_v2.php?app_id=exodus&get_token=get_token'
+        self.tvsearch = 'https://torrentapi.org//pubapi_v2.php?app_id=lamscr&mode=search&search_string=%s&category=tv&ranked=0&token=%s'
+        self.msearch = 'https://torrentapi.org//pubapi_v2.php?app_id=lamscr&mode=search&search_string=%s&category=movies&ranked=0&token=%s'
+        self.tokenta = 'https://torrentapi.org//pubapi_v2.php?app_id=lamscr&get_token=get_token'
         self.checkc = 'https://www.premiumize.me/api/torrent/checkhashes?apikey=%s&hashes[]=%s&apikey=%s'
         self.pr_link = 'https://www.premiumize.me/api/transfer/directdl?apikey=%s&src=magnet:?xt=urn:btih:%s'
 
