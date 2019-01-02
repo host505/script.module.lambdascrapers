@@ -4,9 +4,9 @@
     Nov 20 2018
 '''
 
-import re, requests
+import re, requests, xbmcaddon
 from resources.lib.modules import source_utils
-from resolveurl.plugins.premiumize_me import PremiumizeMeResolver
+#from resolveurl.plugins.premiumize_me import PremiumizeMeResolver
 
 class source:
 
@@ -14,7 +14,7 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domain = 'http://www.bitlordsearch.com'
-        self.api_key = PremiumizeMeResolver.get_setting('password')
+        self.api_key = xbmcaddon.Addon('script.module.lambdascrapers').getSetting('pm.pin')    #PremiumizeMeResolver.get_setting('password')
         self.search_link = 'http://www.bitlordsearch.com/get_list'
         self.checkc = 'https://www.premiumize.me/api/torrent/checkhashes?apikey=%s&hashes[]=%s&apikey=%s'
         self.pr_link = 'https://www.premiumize.me/api/transfer/directdl?apikey=%s&src=magnet:?xt=urn:btih:%s'

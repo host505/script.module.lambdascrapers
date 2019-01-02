@@ -212,6 +212,10 @@
     </category>
 
     <category label="Torrent (cached)">
+        <setting type="lsep" label="For some of these scrapers to work, a Premiumize PIN key is required.[CR]Create an account at Premiumize.me. A free one is sufficient (for now)." />
+        <setting type="lsep" label="" />
+        <setting id="pm.pin" type="text" label="Premiumize PIN" default="" />
+        <setting type="sep" />
         <setting label="Disable All Torrent Providers" type="action" option="close" action="RunPlugin(plugin://script.module.lambdascrapers/?mode=toggleAllTorrent&amp;setting=false&amp;open_id='1.1')"/>
         <setting label="Enable All Torrent Providers" type="action" option="close" action="RunPlugin(plugin://script.module.lambdascrapers/?mode=toggleAllTorrent&amp;setting=true&amp;open_id='1.2')"/>
         <setting type="sep" />

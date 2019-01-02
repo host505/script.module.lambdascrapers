@@ -4,14 +4,14 @@
     Nov 20 2018
 '''
 
-import re, requests
-from resolveurl.plugins.premiumize_me import PremiumizeMeResolver
+import re, requests, xbmcaddon
+#from resolveurl.plugins.premiumize_me import PremiumizeMeResolver
 from resources.lib.modules import source_utils
 
 class source:
 
     def __init__(self):
-        self.api_key = PremiumizeMeResolver.get_setting('password')
+        self.api_key = xbmcaddon.Addon('script.module.lambdascrapers').getSetting('pm.pin')    #PremiumizeMeResolver.get_setting('password')
         self.priority = 1
         self.language = ['en']
         self.domain = 'https://1337xx.top'
