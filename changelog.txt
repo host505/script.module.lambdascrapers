@@ -1,4 +1,15 @@
 Lambdascrapers Module Changelog:
+1.8.0e
+- Minor settings.xml adjustment for Leia compatibility
+- Fix scraper - thx u/pastelgray
+1.8.0d
+- Remove CleanupService service
+- Workaround to resolveurl's removal of premiumize PIN setting
+1.8.0b
+- Fix torrentapi
+1.8.0a
+- Introducing torrent scrapers
+- Scraper updates by JewBMX, sergio49650, host505
 1.8.0
 - Scraper updates
 1.7.0

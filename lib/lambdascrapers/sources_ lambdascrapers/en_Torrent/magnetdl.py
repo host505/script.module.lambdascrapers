@@ -54,11 +54,9 @@ class source:
         try:
             with requests.Session() as s:
                 headers = {"Referer": self.domain,\
-                           "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",\
-                           "Host": "www.magnetdl.com","User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0",\
-                           "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",\
-                           "Accept-Encoding": "gzip, deflate, br","Accept-Language": "en-US,en;q=0.5",\
-                           "Connection": "keep-alive","DNT":"1"}
+                           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
+                           "Host": "www.magnetdl.com",
+                           "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"}
                 if 'episode' in url:
                     iep = url['episode'].zfill(2)
                     ise = url['season'].zfill(2)
