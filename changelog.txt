@@ -1,4 +1,7 @@
 Lambdascrapers Module Changelog:
+1.8.0f
+- Added/fixed scrapers
+- Settings/defaults adjusted
 1.8.0e
 - Minor settings.xml adjustment for Leia compatibility
 - Fix scraper - thx u/pastelgray
