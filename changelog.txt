@@ -1,4 +1,6 @@
 Lambdascrapers Module Changelog:
+1.8.0g
+- Upd scraper
 1.8.0f
 - Added/fixed scrapers
 - Settings/defaults adjusted
