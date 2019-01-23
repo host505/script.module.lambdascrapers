@@ -1,4 +1,6 @@
 Lambdascrapers Module Changelog:
+1.8.0i
+- Added Greek scrapers
 1.8.0h
 - Remove some mirror duplicates
 - Cleanup

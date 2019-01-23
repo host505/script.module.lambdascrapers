@@ -62,6 +62,10 @@ if mode == "toggleAllGerman":
     'streamdream','streamflix','streamit','tata','video4k','view4u']
     toggleAll(params['setting'], params['open_id'], sourcelist)
 
+if mode == "toggleAllGreek":
+    sourcelist = ['gamatotv','liomenoi','tainiesonline','tainiomania','xrysoi']
+    toggleAll(params['setting'], params['open_id'], sourcelist)
+
 if mode == "toggleAllPolish":
     sourcelist = ['alltube','boxfilm','cdahd','cdax','ekinomaniak','ekinotv','filiser',
     'filmwebbooster','iitv','movieneo','openkatalog','paczamy','segos','szukajkatv','trt']
@@ -74,7 +78,8 @@ if mode == "toggleAllForeign":
     'movietown','netzkino','proxer','pureanime','serienstream','seriesever','stream-to',
     'streamdream','streamflix','streamit','tata','video4k','view4u',
     'alltube','boxfilm','cdahd','cdax','ekinomaniak','ekinotv','filiser',
-    'filmwebbooster','iitv','movieneo','openkatalog','paczamy','segos','szukajkatv','trt']
+    'filmwebbooster','iitv','movieneo','openkatalog','paczamy','segos','szukajkatv','trt',
+    'gamatotv','liomenoi','tainiesonline','tainiomania','xrysoi']
     toggleAll(params['setting'], params['open_id'], sourcelist)
 
 if mode == "toggleAllTorrent":
