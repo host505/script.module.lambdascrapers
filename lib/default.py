@@ -50,7 +50,7 @@ if mode == "toggleAll":
 
 if mode == "toggleAllDebrid":
     sourcelist = ['2ddl','300mbfilms','bestmoviez','ddls','ddlvalley','directdl','gomovies','hevcfilm',
-    'invictus','iwantmyshow','myvideolink','phazeddl','power','releasebb','RLSB','rlsbb','rlsmovies','rlsscn',
+    'invictus','iwantmyshow','myvideolinks','phazeddl','power','releasebb','RLSB','rlsbb','rlsmovies','rlsscn',
     'scenerls','sceper','seriescr','tvbmoviez','tvrelease','ultrahd','ultrahdindir','wrzcraft']
     toggleAll(params['setting'], params['open_id'], sourcelist)
 
@@ -82,12 +82,9 @@ if mode == "toggleAllTorrent":
     toggleAll(params['setting'], params['open_id'], sourcelist)
 
 if mode == "Defaults":
-    sourcelist = ['4kmovieto','123moviehd','123movies4u','123movieshubz','1080P','bobmovies','bnwmovies',
-    'cartoonhd','coolmoviezone','darewatch','divxcrawler','extramovies',
-    'fmovies','freefmovies','freeputlockers','furk','gostream',
-    'gowatchseries','Hdmto','hdpopcorns','kattv','library',
-    'moviesplanet','myprojectfreetv','odb','openloadmovie','ororo','playmovies',
-    'plocker','primewire','putlocker','reddit','RLSBB','seehd','series9','seriesfree',
-    'seriesonline','streamlord','tvbox','videoscraper','vidics',
-    'watchonline','watchseries','xmovies','xwatchseries','ymovies']
+    sourcelist = ['123moviehd','123movies4u','123movieshubz','bnwmovies','cartoonhd',
+    'divxcrawler','extramovies','freefmovies','freeputlockers','furk','gostream',
+    'gowatchseries','hdmto','hdpopcorns','kattv','library','openloadmovie','ororo',
+    'playmovies','plocker','primewire','putlocker','reddit','rlsbb','seehd','series9',
+    'seriesfree','seriesonline','solarmoviez','streamlord','tvbox','vidics','watchseries','xwatchseries']
     toggleAll(params['setting'], params['open_id'], sourcelist)
